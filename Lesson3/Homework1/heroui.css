@@ -1,0 +1,58 @@
+body {
+  background: #f9fafb;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.heroui-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 20px rgba(85,105,130,0.08);
+  width: 350px;
+  padding: 22px 22px 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.heroui-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+.heroui-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #fafbfc;
+  border: 1px solid #f0f2f3;
+}
+.heroui-title {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #283753;
+  margin-right: 7px;
+}
+.heroui-url {
+  color: #5a73ab;
+  font-size: 0.96rem;
+}
+.heroui-content {
+  color: #2b354d;
+  font-size: 1.07rem;
+  margin: 7px 0;
+}
+.heroui-footer {
+  margin-top: 5px;
+}
+.heroui-link {
+  color: #386cf1;
+  font-size: 1.03rem;
+  text-decoration: underline;
+}
+.heroui-link:hover {
+  color: #173eb8;
+}
